@@ -2,7 +2,7 @@
 A simple Python script demonstrating how to open and read text files in read-only mode.
 
 # This code works by this demonstration example:
-The script uses a `with open()` statement wrapped inside a `try` block. This ensures that if the file doesn't exist, the program prints a clean error message instead of crashing so basically if you want to make more like these you can make and if the first one crashes so atleast the 2nd one gives the result without any errors.
+The script uses a `with open()` statement wrapped under inside a `try` block. This ensures that if the file doesn't exist, the program prints a clean error message instead of crashing so basically if you want to make more like these you can make and if the first one crashes so atleast the 2nd one gives the result without any errors thats why that `try:` is there.
 
 ```python
 try:
@@ -14,8 +14,8 @@ except Exception as e:
 
 # Tutorial to run this code ( if you are a beginner )
 1. Create a text file named `Hello` (without any extension) or change `"Hello"` in the code to your file's name (e.g., `"Hello.txt"`).
-2. Place the text file in the same folder as your Python script.
-3. Run the script using your terminal or IDE:
+2. Place the text file in the same folder as your Python script and yes you can cut it or just drag it there.
+3. Run the script using your terminal or vs code ( which i have used ) or any other IDE :
    ```bash
    Main.py
    ```
